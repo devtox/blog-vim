@@ -9,7 +9,7 @@ return [
         'image' => 'default-share.png',
     ],
     'owner' => [
-        'name' => 'John Doe',
+        'name' => 'vim.monster',
     ],
     'links' => [
         'twitter' => 'https://twitter.com/johndoe',
@@ -20,10 +20,6 @@ return [
         'analytics' => 'UA-XXXXX-Y',
         'disqus' => 'artisanstatic',
         'formcarry' => 'XXXXXXXXXXXX',
-        'cloudinary' => [
-            'cloudName' => 'artisanstatic',
-            'apiKey' => '365895137117119',
-        ],
     ],
     'collections' => [
         'posts' => [
