@@ -9,13 +9,13 @@
         <img src="{{ $page->image }}" style="object-fit: cover; height: 250px; width: 100%;">
     @endif
 
-    <p>
+    <!-- <p>
         <strong>{{ $page->prettyDate('F j, Y') }}</strong><br>
         @foreach ($page->tags as $tag)
             <a href="/tags/{{ $tag }}">{{ $tag }}</a>
             {{ $loop->last ? '' : '-' }}
         @endforeach
-    </p>
+    </p> -->
 
     <blockquote data-phpdate="{{ $page->date }}">
         <em>WARNING: This post is over a year old. Some of the information this contains may be outdated.</em>

@@ -1,8 +1,8 @@
 ---
 title: Vim for Linux Users
 date: 2022-04-12
-image: /images/vim.png
-comments: true
+image: /assets/images/vim.png
+comments: false
 ---
 Linux users often have a tough time switching over to Vim because many of the commands are different. There's a learning curve to understand what all of these commands mean, and it can be a pain trying to memorize them all.
 
