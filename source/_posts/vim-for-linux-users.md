@@ -40,11 +40,11 @@ You can also use the arrow keys to move around. However, if you open vi instead 
 
 The next set of commands are for deleting text. There are two ways to delete text in Vim: explicitly (using a command) or implicitly by overtyping. 
 
-Explicit commands include "x", which deletes the character under the cursor, or "dd", which deletes from the current location to the end of the line. Implicit commands include typing over existing text; this causes both instances of it to be deleted. To delete a single word you can use "dw".
+Explicit commands include "x", which deletes the character under the cursor, or "dd", which deletes the current line. Implicit commands include typing over existing text; this causes both instances of it to be deleted. To cut to the next word you can use "dw".
 
-In Vim, pressing d will delete forward (to the right), whereas dd will delete backward (leftward). These commands may also be used on whole words if preceded by a capital letter ("D" and "C"). Vim has a dual mode: insert mode and command mode.
+Vim has a dual mode: insert mode and command mode.
 
-When you first start vim, you're placed in insert mode; when you press an appropriate key (usually ), you'll switch into command mode, where all sorts of useful things become available to you, like formatting text or changing case.
+When you first start vim, you're placed in insert mode; when you pressthe esc key, you'll switch into command mode, where all sorts of useful things become available to you.
 
 <a href="https://asciinema.org/a/JzsBe4qATDCrZAUeqVKFrKgeH" target="_blank"><img src="https://asciinema.org/a/JzsBe4qATDCrZAUeqVKFrKgeH.svg" /></a>
 
