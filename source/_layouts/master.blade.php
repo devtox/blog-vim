@@ -15,6 +15,7 @@
     @include('_partials.cms.identity_widget')
 
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+    <meta name="google-site-verification" content="TAfSJf28X_SZ93OP-6aNvnXBaKd4POI4xs75OyrXvRA" />
 </head>
 <body>
     <section>
