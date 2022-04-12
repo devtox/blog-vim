@@ -6,9 +6,11 @@ comments: true
 ---
 Linux users often have a tough time switching over to Vim because many of the commands are different. There's a learning curve to understand what all of these commands mean, and it can be a pain trying to memorize them all.
 
-Here we'll provide some tips that will help you get started with Vim on Linux, and hopefully make it a little easier for you to jump into the crazy world of Vim.First, it's important to understand that Vim is a modal text editor. 
+Here we'll provide some tips that will help you get started with Vim on Linux, and hopefully make it a little easier for you to jump into the crazy world of Vim. 
 
 ## Modes
+
+First, it's important to understand that Vim is a modal text editor. 
 
 This means that there are different modes you can be in, each with their own set of commands. The most important mode for beginning Vim users to know is Normal mode. This is the mode you start in when you open Vim. In Normal mode, you can navigate around your document and perform basic tasks such as cutting and pasting text.
 
@@ -41,3 +43,43 @@ Explicit commands include "x", which deletes the character under the cursor, or 
 In Vim, pressing d will delete forward (to the right), whereas dd will delete backward (leftward). These commands may also be used on whole words if preceded by a capital letter ("D" and "C"). Vim has a dual mode: insert mode and command mode.
 
 When you first start vim, you're placed in insert mode; when you press an appropriate key (usually ), you'll switch into command mode, where all sorts of useful things become available to you, like formatting text or changing case.
+
+## Save file
+
+Saving a file in vim is pretty easy, we just **:w** followed by the name of the file. If you want to save and exit you can use *:wq**.
+ 
+## File commands
+
+Open a single file
+
+```
+vim file
+```
+
+Open multiple files at the same time
+
+```
+vim file1 file2 file3 ...
+```
+
+Open a new file in a vim window
+
+```
+:open file
+```
+
+## In-line movement
+
+Besides these there are many more commands. You can jump the cursor in line. The commands below are some you can use:
+
+* 0 : Move the cursor to the beginning of the line
+* $ : Cursor moves to the end of the line
+* b : cursor to the beginning of the previous character
+* w : Cursor to the beginning of the next word
+* e : Cursor goes to the end of the next word
+* ge : cursor moves to the end of the previous word
+* fa : move to the next a position ('F' is the opposite of that)
+* ta : move to the position before the next a ('T' is the opposite)
+* G : cursor moves to the end of the text
+* gg : cursor moves to the beginning
+
