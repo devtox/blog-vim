@@ -1,7 +1,7 @@
 ---
 title: Vim for Linux Users
 date: 2022-04-12
-image: /assets/images/vim.png
+image: /images/vim.png
 comments: true
 ---
 Linux users often have a tough time switching over to Vim because many of the commands are different. There's a learning curve to understand what all of these commands mean, and it can be a pain trying to memorize them all.
@@ -26,6 +26,8 @@ It's not the most polite way to end a process, but if you've been editing text i
 
 If you're in a hurry, you can always press **ZZ** to stop without saving your progress.
 
+<a href="https://asciinema.org/a/0KY9FVtXIn0vwkYWbqsk76zyY" target="_blank"><img src="https://asciinema.org/a/0KY9FVtXIn0vwkYWbqsk76zyY.svg" /></a>
+
 ## Cursor
 
 The "h" key will move your cursor to the left. The "l" key will move your cursor to the right. The "k" and "j" keys will move the cursor up and down, respectively.
@@ -38,15 +40,17 @@ You can also use the arrow keys to move around. However, if you open vi instead 
 
 The next set of commands are for deleting text. There are two ways to delete text in Vim: explicitly (using a command) or implicitly by overtyping. 
 
-Explicit commands include "x", which deletes the character under the cursor, or "dd", which deletes from the current location to the end of the line. Implicit commands include typing over existing text; this causes both instances of it to be deleted.
+Explicit commands include "x", which deletes the character under the cursor, or "dd", which deletes from the current location to the end of the line. Implicit commands include typing over existing text; this causes both instances of it to be deleted. To delete a single word you can use "dw".
 
 In Vim, pressing d will delete forward (to the right), whereas dd will delete backward (leftward). These commands may also be used on whole words if preceded by a capital letter ("D" and "C"). Vim has a dual mode: insert mode and command mode.
 
 When you first start vim, you're placed in insert mode; when you press an appropriate key (usually ), you'll switch into command mode, where all sorts of useful things become available to you, like formatting text or changing case.
 
+<a href="https://asciinema.org/a/JzsBe4qATDCrZAUeqVKFrKgeH" target="_blank"><img src="https://asciinema.org/a/JzsBe4qATDCrZAUeqVKFrKgeH.svg" /></a>
+
 ## Save file
 
-Saving a file in vim is pretty easy, we just **:w** followed by the name of the file. If you want to save and exit you can use *:wq**.
+Saving a file in vim is pretty easy, we just **:w** followed by the name of the file. If you want to save and exit you can use **:wq**.
  
 ## File commands
 
