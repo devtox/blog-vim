@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'production' => false,
-    'baseUrl' => 'https://artisanstatic.netlify.app',
+    'production' => true,
+    'baseUrl' => 'https://vim.monster',
     'site' => [
         'title' => 'Vim.monster',
         'description' => 'Blog of a vim fan.',
