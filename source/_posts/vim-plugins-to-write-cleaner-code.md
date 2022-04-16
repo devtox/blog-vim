@@ -1,6 +1,6 @@
 ---
 title: Vim Plugins to Write Cleaner Code
-date: 2022-04-16
+date: 2022-04-14
 image: /assets/images/vim-plugins.png
 comments: true
 ---
