@@ -10,6 +10,8 @@ Vim is the most powerful code editor available. Every time I use it, I am amazed
 
 The [vim-airline](https://github.com/vim-airline/vim-airline) plugin adds a status bar to Vim that shows information about your current file, including the filename, the current line number, the column number, and the character encoding. It also shows whether your file has been modified since it was last saved. vim-airline is highly configurable, so you can customize it to show exactly the information that you want.
 
+![vim airline plugin](/assets/images/vim-airline.gif)
+
 **YankRing**
 
 The [YankRing](https://github.com/vim-scripts/YankRing.vim) plugin keeps track of all the things you've yanked (copied) in Vim. So if you accidentally overwrite something, you can just go back and yank it again from the YankRing. No need to remember what you copied!
@@ -33,3 +35,32 @@ The [Narrow](https://www.vim.org/scripts/script.php?script_id=2097) plugin allow
 [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) is a plugin that allows you to quickly search for files by name. Just type a few characters of the filename and CtrlP will show you a list of matching files. You can even narrow down the results by typing more characters of the filename. CtrlP is especially useful when you're working on a project with a lot of files.
 
 ![vim ctrlp plugin](/assets/images/vim-ctrlp.png)
+
+**fzf**
+
+Fuzzy finder ([fzf](https://github.com/junegunn/fzf.vim)) is a plugin that allows you to quickly search a file in your project. It's super fast and easy to use. It's similar to the *Goto Anything* menu in Sublime Text, open a file by typing its name. With this plugin, you can open files much faster.
+
+![](/assets/images/fzf.gif)
+
+\
+**NERD Tree**
+
+Next up is [NERD Tree](https://github.com/scrooloose/nerdtree). NERD Tree allows you to view the structure of your project in a treeview. This is really useful when you have a large project with many files. It's also great for quickly finding a file or folder in your project.\
+\
+You can open NERD Tree with the :NERDTree command.
+
+![](/assets/images/nerdtree.png)
+
+**vim multiple  cursors**
+
+[vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) is an excellent plugin for those who work with multiple pieces of text at the same time. It allows you to place cursors at multiple locations and then edit all of them simultaneously.\
+\
+This can be really useful when you need to make the same change in multiple places, or when you're working on a piece of code that's similar to other pieces of code.
+
+![vim multiple cursors](/assets/images/vim-multiple-cursors.gif)
+
+**vim lightline plugin**
+
+The vim [lightline](https://github.com/itchyny/lightline.vim) plugin is a great way to customize the look of yourvim status line. It's very easy to use and allows you to change the colors, font size, and other aspects of the status line.
+
+![vim lightline plugin](/assets/images/lightline.png)
