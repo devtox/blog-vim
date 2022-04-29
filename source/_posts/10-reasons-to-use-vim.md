@@ -10,7 +10,7 @@ Vim has been around for a long time, and is still one of the most popular text e
 
 These are 10 reasons to try Vim.
 
-1. It's everywhere.  You can use it on Windows, Mac and Linux/Unix. It is distributed with most UNIX systems. 
+1. It's everywhere.  You can [download](https://www.vim.org/download.php) it on Windows, Mac and Linux/Unix. It is distributed with most UNIX systems. 
 
 2. The core is small and well documented.  The core is about 100k lines of code in about 10k files.
 
@@ -26,7 +26,7 @@ These are 10 reasons to try Vim.
 
 8. Efficiency - With Vim, you can perform many common actions with just a few keystrokes. This can save you a lot of time in the long run, especially if you use Vim regularly. Vim is the most efficient text editor there is. If you're still using an old school editor like Notepad or TextEdit you should try Vim. Here's why: Vim has a steep learning curve, but your workflows will never be the same once you've mastered it.
 
-9. Available plugins - There are literally thousands of vim plugins available online, for free. This allows you to extend the functionality of Vim even further and customize it to suit your specific needs even more.
+9. Available plugins - There are literally thousands of [vim plugins](https://vim.monster/posts/vim-plugins-to-write-cleaner-code) available online, for free. This allows you to extend the functionality of Vim even further and customize it to suit your specific needs even more.
 
 10. Active community - The Vim community is large and active, which means that there is always someone who can help you with any problems or questions that you may have.
 
